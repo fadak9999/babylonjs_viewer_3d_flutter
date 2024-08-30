@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
       body: Padding(
         padding: const EdgeInsets.all(15),
         child: Center(
-          child: Container(
+          child: SizedBox(
 
               height: 500,
               child: BabylonJSViewer(src: 'assets/mycat3d.glb')),
